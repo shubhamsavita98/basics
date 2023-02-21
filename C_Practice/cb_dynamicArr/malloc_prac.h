@@ -1,0 +1,6 @@
+#ifndef MALLOC_PRAC_H_INCLUDED
+#define MALLOC_PRAC_H_INCLUDED
+
+int mallocfn();
+
+#endif // MALLOC_PRAC_H_INCLUDED
