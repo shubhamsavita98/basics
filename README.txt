@@ -1,2 +1,1 @@
-Simple git repo for local code storage and learning.
-#branch example
+Practice codes.
