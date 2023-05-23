@@ -18,8 +18,11 @@ Transaction tr1, tr2;
 initial begin
 	tr1 = new();
 	$display("First id:%0d",tr1.id);
+	//access count
+  	$display("Incremented count: %0d", Transaction::count);
 	tr2 = new();
 	$display("First id:%0d",tr2.id);
+  	$display("Incremented count: %0d", Transaction::count);
 end 
 
 
