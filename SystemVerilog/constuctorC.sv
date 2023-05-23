@@ -1,3 +1,5 @@
+// Code your testbench here
+// or browse Examples
 class Transaction;
   logic [31:0] addr, csm, data[8];
   
@@ -8,6 +10,16 @@ class Transaction;
     
 endclass
 
+//calling transaction new function 
+class Driver;
+  
+  Transaction tr;
+  function new();
+    tr = new();
+    $display("Transaction addr value inside driver cls: %0d",tr.addr);
+  endfunction
+  
+endclass 
 
 module tb;
   
@@ -22,6 +34,16 @@ initial begin
   tr = new(.a(2),.b(8));
   $display("Value of addr: %0d", tr.addr);
   $display("Value of data: %0p", tr.data);
+
+end
+  
+/*you cannot have this driver class object creation
+  in one single initial block, you need to separate
+  out in other initial block as below.
+*/
+initial begin
+    Driver dr;
+    dr = new();
 end
 
 initial begin
