@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1687574791 source:c:\users\hp\onedrive\documents\cdummyproj\commmodule21\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1687501877 c:\users\hp\onedrive\documents\cdummyproj\commmodule21\foo.c
+
+1687504818 source:c:\users\hp\onedrive\documents\cdummyproj\commmodule21\foo.c
+	<stdio.h>
+

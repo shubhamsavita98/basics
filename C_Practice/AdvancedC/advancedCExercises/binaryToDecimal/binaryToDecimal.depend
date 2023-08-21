@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1692448264 source:c:\users\hp\onedrive\documents\cdummyproj\binarytodecimal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

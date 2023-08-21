@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1687660595 source:c:\users\hp\onedrive\documents\cdummyproj\challenge28\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1687662382 source:c:\users\hp\onedrive\documents\cdummyproj\challenge28\challenge_2.c
+	<stdio.h>
+	<stdlib.h>
+

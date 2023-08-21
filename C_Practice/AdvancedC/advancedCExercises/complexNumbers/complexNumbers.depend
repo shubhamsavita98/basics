@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1688618821 source:c:\users\hp\onedrive\documents\cdummyproj\complexnumbers\main.c
+	<stdio.h>
+	<stdlib.h>
+	<complex.h>
+
